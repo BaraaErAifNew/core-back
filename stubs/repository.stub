@@ -1,0 +1,27 @@
+<?php
+
+namespace {{ namespace }};
+
+use ApiCore\Repositories\BaseRepository;
+use {{ modelNamespace }}\{{ modelClass }};
+
+class {{ class }} extends BaseRepository
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

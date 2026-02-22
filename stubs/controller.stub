@@ -1,0 +1,31 @@
+<?php
+
+namespace {{ namespace }};
+
+use ApiCore\Http\Controllers\BaseController;
+use {{ requestNamespace }}\{{ requestClass }};
+use {{ resourceNamespace }}\{{ resourceClass }};
+use {{ repositoryNamespace }}\{{ repositoryClass }};
+use {{ modelNamespace }}\{{ modelClass }};
+use Illuminate\Http\Request;
+
+class {{ class }} extends BaseController
+{
+    protected $model = {{ modelClass }}::class;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

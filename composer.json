@@ -1,0 +1,32 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "jina-panel/api-core",
+    "type": "library",
+    "description": "API Core package for Jina Panel",
+    "keywords": ["api", "core", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0",
+        "tymon/jwt-auth": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiCore\\": "src/"
+        },
+        "files": [
+            "Helpers/helper.php",
+            "Helpers/constants.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ApiCore\\CoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
